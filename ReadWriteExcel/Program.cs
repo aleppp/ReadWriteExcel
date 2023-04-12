@@ -8,7 +8,7 @@ class Program
         try
         {
             // Open the text file using a stream reader.
-            using (StreamReader sr = new StreamReader("example.txt"))
+            using (StreamReader sr = new StreamReader("D:\\PluralSight\\C#\\Getting Started\\ReadWriteExcel\\ReadWriteExcel\\UPusers-moduleURLs.txt"))
             {
                 // Read the entire file and store its contents in a string.
                 string fileContents = sr.ReadToEnd();
